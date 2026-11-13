@@ -1,0 +1,20 @@
+{
+  "name": "axiomzero",
+  "version": "1.0.0",
+  "description": "Deterministic Neuro-Symbolic AI Math Reasoning & Hallucination Firewall",
+  "main": "dist/axiom_client.js",
+  "types": "dist/axiom_client.d.ts",
+  "scripts": {
+    "test": "python test_axiomzero.py"
+  },
+  "keywords": [
+    "neuro-symbolic",
+    "math-reasoning",
+    "hallucination-detector",
+    "formal-verification",
+    "schwartz-zippel",
+    "education-ai"
+  ],
+  "author": "Usman Bamidele <usmanbamidele200@gmail.com>",
+  "license": "MIT"
+}
