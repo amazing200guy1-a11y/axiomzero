@@ -11,7 +11,7 @@
   
   <style>
     /* ═════════════════════════════════════════════════════════════════════════════
-       AXIOMZERO TITANIUM GUNMETAL DESIGN SYSTEM // ICEHACKS 2026
+       AXIOMZERO CLASSIC TITANIUM GUNMETAL DESIGN SYSTEM // 1:1 AEROSPACE SPEC
        ═════════════════════════════════════════════════════════════════════════════ */
     :root {
       --bg: #04070D;
@@ -24,7 +24,7 @@
       --bg-tray: #0C1019;
       --bg-tray-hover: #141B26;
       
-      /* Metallic Hairlines & Bevel Highlights */
+      /* Metallic Hairlines & Bevel Chamfers */
       --border: rgba(200, 220, 240, 0.10);
       --border-chamfer: rgba(200, 220, 240, 0.18);
       --border-hover: rgba(200, 220, 240, 0.32);
@@ -37,7 +37,7 @@
       --platinum: #E2E8F0;
       --platinum-bright: #F8FAFC;
       
-      /* High-Precision Accents */
+      /* Classic High-Precision Accents */
       --emerald: #10B981;
       --emerald-dim: rgba(16, 185, 129, 0.14);
       --ice: #7DD3FC;
@@ -611,11 +611,12 @@
     <header class="cockpit-header">
       <div class="brand-group">
         <div class="brand-icon">
-          <!-- Mathematical Formal Proof Vector -->
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="4 7 4 4 20 4 20 7"/>
-            <line x1="9" y1="20" x2="15" y2="20"/>
-            <line x1="12" y1="4" x2="12" y2="20"/>
+          <!-- Classic Drafting Compass SVG (Stroke 1.5) -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="5" r="2"/>
+            <path d="M12 7v3"/>
+            <path d="M6.5 21l4.5-11 4.5 11"/>
+            <line x1="8" y1="17" x2="16" y2="17"/>
           </svg>
         </div>
         <div>
@@ -637,8 +638,9 @@
           SYMBOLIC KERNEL ONLINE
         </div>
         <div class="status-pill ice">
+          <!-- Sub-millisecond Lightning Bolt SVG -->
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
           </svg>
           0.0074 ms / AXIOM PROOF STEP
         </div>
@@ -651,8 +653,10 @@
       <div class="titanium-card metric-card">
         <div class="metric-header">
           <span class="metric-label">PROOF STEPS CERTIFIED</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="20 6 9 17 4 12"/>
+          <!-- Classic Checkmark Circle SVG -->
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--emerald)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
           </svg>
         </div>
         <div class="metric-val emerald" id="totalSteps">28,420</div>
@@ -668,10 +672,11 @@
       <div class="titanium-card metric-card">
         <div class="metric-header">
           <span class="metric-label">HALLUCINATIONS INTERCEPTED</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"/>
-            <line x1="15" y1="9" x2="9" y2="15"/>
-            <line x1="9" y1="9" x2="15" y2="15"/>
+          <!-- Classic Shield Alert SVG -->
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
           </svg>
         </div>
         <div class="metric-val" id="totalHallucinations" style="color: var(--crimson);">1,418</div>
@@ -684,8 +689,13 @@
       <div class="titanium-card metric-card">
         <div class="metric-header">
           <span class="metric-label">MATHEMATICAL ACCURACY</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <!-- Classic Target Crosshair SVG -->
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--ice)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="22" y1="12" x2="18" y2="12"/>
+            <line x1="6" y1="12" x2="2" y2="12"/>
+            <line x1="12" y1="6" x2="12" y2="2"/>
+            <line x1="12" y1="22" x2="12" y2="18"/>
           </svg>
         </div>
         <div class="metric-val ice">99.998%</div>
@@ -698,7 +708,8 @@
       <div class="titanium-card metric-card">
         <div class="metric-header">
           <span class="metric-label">VERIFICATION LATENCY</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <!-- Classic Gauge/Stopwatch SVG -->
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="10"/>
             <polyline points="12 6 12 12 16 14"/>
           </svg>
@@ -710,20 +721,22 @@
       </div>
     </section>
 
-    <!-- ══════════ TAB NAVIGATION ══════════ -->
+    <!-- ══════════ TITANIUM TAB NAVIGATION ══════════ -->
     <nav class="tabs-wrapper">
       <button class="tab-btn active" onclick="switchTab(event, 'tab-proof')">
-        <!-- Math Compass SVG -->
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10"/>
-          <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83M16.62 12l-5.74 9.94"/>
+        <!-- Drafting Compass Icon -->
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="5" r="2"/>
+          <path d="M12 7v3"/>
+          <path d="M6.5 21l4.5-11 4.5 11"/>
+          <line x1="8" y1="17" x2="16" y2="17"/>
         </svg>
         Interactive Proof Verifier
       </button>
 
       <button class="tab-btn" onclick="switchTab(event, 'tab-hallucination')">
-        <!-- Shield Hallucination Trap SVG -->
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Shield Firewall Icon -->
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
           <line x1="12" y1="8" x2="12" y2="12"/>
           <line x1="12" y1="16" x2="12.01" y2="16"/>
@@ -732,24 +745,28 @@
       </button>
 
       <button class="tab-btn" onclick="switchTab(event, 'tab-agent')">
-        <!-- Neuro-Symbolic Agent Loop SVG -->
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Microchip Logic Icon -->
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
           <rect x="4" y="4" width="16" height="16" rx="2"/>
-          <circle cx="12" cy="12" r="3"/>
-          <line x1="12" y1="1" x2="12" y2="4"/>
-          <line x1="12" y1="20" x2="12" y2="23"/>
-          <line x1="1" y1="12" x2="4" y2="12"/>
-          <line x1="20" y1="12" x2="23" y2="12"/>
+          <rect x="9" y="9" width="6" height="6"/>
+          <line x1="9" y1="1" x2="9" y2="4"/>
+          <line x1="15" y1="1" x2="15" y2="4"/>
+          <line x1="9" y1="20" x2="9" y2="23"/>
+          <line x1="15" y1="20" x2="15" y2="23"/>
+          <line x1="20" y1="9" x2="23" y2="9"/>
+          <line x1="20" y1="15" x2="23" y2="15"/>
+          <line x1="1" y1="9" x2="4" y2="9"/>
+          <line x1="1" y1="15" x2="4" y2="15"/>
         </svg>
         Neuro-Symbolic Agent Loop
       </button>
 
       <button class="tab-btn" onclick="switchTab(event, 'tab-benchmark')">
-        <!-- Telemetry Graph SVG -->
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="20" x2="18" y2="10"/>
-          <line x1="12" y1="20" x2="12" y2="4"/>
-          <line x1="6" y1="20" x2="6" y2="14"/>
+        <!-- Speedometer Icon -->
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 12A10 10 0 0 0 2 12"/>
+          <path d="M12 12l4-4"/>
+          <circle cx="12" cy="12" r="2"/>
         </svg>
         Latency & Benchmarks
       </button>
@@ -762,7 +779,7 @@
         <div class="titanium-card panel-card">
           <div class="panel-header">
             <div class="panel-title">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ice)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ice)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="20 6 9 17 4 12"/>
               </svg>
               Active Verified Proof Chain (Binomial Theorem Proof #418)
@@ -782,7 +799,7 @@
             <div class="proof-step-card">
               <div class="step-expr-block">
                 <div class="step-expr-title">Step 2: (x^2 + 6x + 9) - (x^2 - 6x + 9)</div>
-                <div class="step-expr-just">Axiom: Binomial expansion expansion</div>
+                <div class="step-expr-just">Axiom: Binomial expansion identity</div>
               </div>
               <span class="panel-badge emerald">0.0071 ms ✓</span>
             </div>
@@ -816,7 +833,7 @@
         <div class="titanium-card panel-card">
           <div class="panel-header">
             <div class="panel-title">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--emerald)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="2" y="2" width="20" height="8" rx="2" ry="2"/>
                 <rect x="2" y="14" width="20" height="8" rx="2" ry="2"/>
                 <line x1="6" y1="6" x2="6.01" y2="6"/>
@@ -837,7 +854,7 @@
       <div class="titanium-card panel-card">
         <div class="panel-header">
           <div class="panel-title">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--crimson)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10"/>
               <line x1="15" y1="9" x2="9" y2="15"/>
               <line x1="9" y1="9" x2="15" y2="15"/>
@@ -860,14 +877,14 @@
           </button>
           
           <button class="btn-sandbox danger" onclick="trapSignInversion()">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
               <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
             </svg>
             Inject LLM Sign Inversion: -(x - 5) → (x - 5)
           </button>
 
           <button class="btn-sandbox danger" onclick="trapDivByZero()">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10"/>
               <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/>
             </svg>
@@ -875,7 +892,7 @@
           </button>
 
           <button class="btn-sandbox amber" onclick="trapFalseFactor()">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
               <line x1="18" y1="6" x2="6" y2="18"/>
               <line x1="6" y1="6" x2="18" y2="18"/>
             </svg>
@@ -901,7 +918,7 @@
         <div class="titanium-card panel-card">
           <div class="panel-header">
             <div class="panel-title">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ice)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ice)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <polygon points="12 2 2 7 12 12 22 7 12 2"/>
                 <polyline points="2 17 12 22 22 17"/>
                 <polyline points="2 12 12 17 22 12"/>
@@ -949,7 +966,7 @@
         <div class="titanium-card panel-card">
           <div class="panel-header">
             <div class="panel-title">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--emerald)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
               </svg>
               Neuro-Symbolic Agent Reasoning Stream
@@ -967,7 +984,7 @@
       <div class="titanium-card panel-card">
         <div class="panel-header">
           <div class="panel-title">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ice)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ice)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
             </svg>
             Real-Time Latency Comparison: AxiomZero C99 vs Standard LLM Token Generation
